@@ -1,0 +1,1 @@
+/usr/local/bin/c++  -Werror=maybe-uninitialized CMakeFiles/Lab_3var25_exe.dir/main.cpp.o -o Lab_3var25_exe  libLab_3var25_lib.a 

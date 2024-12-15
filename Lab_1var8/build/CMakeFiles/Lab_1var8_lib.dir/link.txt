@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLab_1var8_lib.a CMakeFiles/Lab_1var8_lib.dir/src/work_with_string.cpp.o
+/usr/bin/ranlib libLab_1var8_lib.a

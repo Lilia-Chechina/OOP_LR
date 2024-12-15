@@ -1,0 +1,104 @@
+Lab_1var8/build
+
+Lab_1var8/include/work_with_string.h
+#pragma once // говорит компилятору что данный файл должен быть включен только один раз
+
+#include <string>
+using namespace std;
+
+long eliminate_unset_bits(string number);
+
+Lab_1var8/src/work_with_string.cpp 
+#include "../include/work_with_string.h"
+
+long eliminate_unset_bits(string number) {
+    string result = "";
+    for (char bit : number) {
+        if (bit == '1')
+            result += bit;
+    }
+    if (result.empty())
+        return 0;
+    else
+        return stol(result, nullptr, 2);
+    
+}
+
+Lab_1var8/test/test.cpp 
+#include <gtest/gtest.h>
+#include "../include/work_with_string.h"
+
+TEST(test_01, basic_test_set)
+{
+    ASSERT_TRUE(eliminate_unset_bits("1101010101010101")==511);
+}
+
+TEST(test_02, basic_test_set)
+{
+    ASSERT_TRUE(eliminate_unset_bits("111")==7);
+}
+
+TEST(test_03, basic_test_set)
+{
+    ASSERT_TRUE(eliminate_unset_bits("1000000")==1);
+}
+
+TEST(test_04, basic_test_set)
+{
+    ASSERT_TRUE(eliminate_unset_bits("000")==0);
+}
+
+int main(int argc, char **argv) {
+    testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
+}
+
+Lab_1var8/test/CMakeLists.txt 
+cmake_minimum_required(VERSION 3.10)
+project(Lab_1var8)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Добавление опций компиляции
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Werror=maybe-uninitialized")
+
+# Установка Google Test
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  GIT_REPOSITORY https://github.com/google/googletest.git
+  GIT_TAG v1.15.2
+  TLS_VERIFY false
+)
+# For Windows: Prevent overriding the parent project's compiler/linker settings
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(googletest)
+
+# компиляция файлов проекта
+add_library(${CMAKE_PROJECT_NAME}_lib src/work_with_string.cpp)
+add_executable(${CMAKE_PROJECT_NAME}_exe main.cpp)
+
+target_link_libraries(${CMAKE_PROJECT_NAME}_exe PRIVATE ${CMAKE_PROJECT_NAME}_lib)
+
+# Добавление тестов
+enable_testing()
+
+add_executable(tests test/test.cpp)
+target_link_libraries(tests ${CMAKE_PROJECT_NAME}_lib gtest_main)
+
+# Добавление тестов в тестовый набор
+add_test(NAME MyProjectTests COMMAND tests)
+
+Lab_1var8/main.cpp
+#include <iostream>
+#include "include/work_with_string.h"
+using namespace std;
+
+int main(){
+    string source_digit;
+    cout << "Enter binary digit:\n";
+    cin >> source_digit;
+    cout << "Result: " << eliminate_unset_bits(source_digit) << "\n";
+    return 0;
+}

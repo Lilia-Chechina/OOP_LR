@@ -1,0 +1,430 @@
+The system is: Linux - 6.10.14-linuxkit - aarch64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/workspaces/OOP_LR/Lab_6var5/build/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/workspaces/OOP_LR/Lab_6var5/build/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /workspaces/OOP_LR/Lab_6var5/build/CMakeFiles/CMakeScratch/TryCompile-xn3Xyv
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d10ec/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d10ec.dir/build.make CMakeFiles/cmTC_d10ec.dir/build
+gmake[1]: Entering directory '/workspaces/OOP_LR/Lab_6var5/build/CMakeFiles/CMakeScratch/TryCompile-xn3Xyv'
+Building C object CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: aarch64-linux-gnu
+Configured with: /usr/src/gcc/configure --build=aarch64-linux-gnu --disable-multilib --enable-languages=c,c++,fortran,go
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_d10ec.dir/'
+ /usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d10ec.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -o /tmp/ccPuJK0R.s
+GNU C17 (GCC) version 14.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 14.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include-fixed/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include
+ /usr/local/include
+ /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include-fixed
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+Compiler executable checksum: adb2dc82e60ceec1f4e72b89577b9240
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_d10ec.dir/'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o /tmp/ccPuJK0R.s
+GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/libexec/gcc/aarch64-linux-gnu/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64/:/lib/aarch64-linux-gnu/:/usr/lib/aarch64-linux-gnu/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_d10ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d10ec.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o -o cmTC_d10ec 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: /usr/src/gcc/configure --build=aarch64-linux-gnu --disable-multilib --enable-languages=c,c++,fortran,go
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.2.0 (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/libexec/gcc/aarch64-linux-gnu/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64/:/lib/aarch64-linux-gnu/:/usr/lib/aarch64-linux-gnu/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d10ec' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_d10ec.'
+ /usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/collect2 -plugin /usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccNDXgR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_d10ec /lib/aarch64-linux-gnu/crt1.o /lib/aarch64-linux-gnu/crti.o /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtbegin.o -L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0 -L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64 -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../.. CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtend.o /lib/aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d10ec' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_d10ec.'
+gmake[1]: Leaving directory '/workspaces/OOP_LR/Lab_6var5/build/CMakeFiles/CMakeScratch/TryCompile-xn3Xyv'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include]
+    add: [/usr/local/include]
+    add: [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include-fixed]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include] ==> [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include-fixed] ==> [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include-fixed]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include;/usr/local/include;/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include-fixed;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /workspaces/OOP_LR/Lab_6var5/build/CMakeFiles/CMakeScratch/TryCompile-xn3Xyv]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d10ec/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d10ec.dir/build.make CMakeFiles/cmTC_d10ec.dir/build]
+  ignore line: [gmake[1]: Entering directory '/workspaces/OOP_LR/Lab_6var5/build/CMakeFiles/CMakeScratch/TryCompile-xn3Xyv']
+  ignore line: [Building C object CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: /usr/src/gcc/configure --build=aarch64-linux-gnu --disable-multilib --enable-languages=c c++ fortran go]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 14.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_d10ec.dir/']
+  ignore line: [ /usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d10ec.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -o /tmp/ccPuJK0R.s]
+  ignore line: [GNU C17 (GCC) version 14.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include-fixed/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include-fixed]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: adb2dc82e60ceec1f4e72b89577b9240]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_d10ec.dir/']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o /tmp/ccPuJK0R.s]
+  ignore line: [GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/libexec/gcc/aarch64-linux-gnu/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64/:/lib/aarch64-linux-gnu/:/usr/lib/aarch64-linux-gnu/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_d10ec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d10ec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o -o cmTC_d10ec ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: /usr/src/gcc/configure --build=aarch64-linux-gnu --disable-multilib --enable-languages=c c++ fortran go]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 14.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/libexec/gcc/aarch64-linux-gnu/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64/:/lib/aarch64-linux-gnu/:/usr/lib/aarch64-linux-gnu/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d10ec' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_d10ec.']
+  link line: [ /usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/collect2 -plugin /usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccNDXgR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_d10ec /lib/aarch64-linux-gnu/crt1.o /lib/aarch64-linux-gnu/crti.o /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtbegin.o -L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0 -L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64 -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../.. CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtend.o /lib/aarch64-linux-gnu/crtn.o]
+    arg [/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cccNDXgR.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d10ec] ==> ignore
+    arg [/lib/aarch64-linux-gnu/crt1.o] ==> obj [/lib/aarch64-linux-gnu/crt1.o]
+    arg [/lib/aarch64-linux-gnu/crti.o] ==> obj [/lib/aarch64-linux-gnu/crti.o]
+    arg [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtbegin.o] ==> obj [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtbegin.o]
+    arg [-L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0] ==> dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0]
+    arg [-L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64] ==> dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../..] ==> dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../..]
+    arg [CMakeFiles/cmTC_d10ec.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtend.o] ==> obj [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtend.o]
+    arg [/lib/aarch64-linux-gnu/crtn.o] ==> obj [/lib/aarch64-linux-gnu/crtn.o]
+  collapse library dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0] ==> [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0]
+  collapse library dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64] ==> [/usr/local/lib64]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../..] ==> [/usr/local/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/lib/aarch64-linux-gnu/crt1.o;/lib/aarch64-linux-gnu/crti.o;/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtbegin.o;/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtend.o;/lib/aarch64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0;/usr/local/lib64;/lib/aarch64-linux-gnu;/usr/lib/aarch64-linux-gnu;/usr/local/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /workspaces/OOP_LR/Lab_6var5/build/CMakeFiles/CMakeScratch/TryCompile-WyDid0
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_05f42/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_05f42.dir/build.make CMakeFiles/cmTC_05f42.dir/build
+gmake[1]: Entering directory '/workspaces/OOP_LR/Lab_6var5/build/CMakeFiles/CMakeScratch/TryCompile-WyDid0'
+Building CXX object CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/c++   -v -o CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+Target: aarch64-linux-gnu
+Configured with: /usr/src/gcc/configure --build=aarch64-linux-gnu --disable-multilib --enable-languages=c,c++,fortran,go
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_05f42.dir/'
+ /usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_05f42.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -o /tmp/cckifGiW.s
+GNU C++17 (GCC) version 14.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 14.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include-fixed/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../include/c++/14.2.0
+ /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../include/c++/14.2.0/aarch64-linux-gnu
+ /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../include/c++/14.2.0/backward
+ /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include
+ /usr/local/include
+ /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include-fixed
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+Compiler executable checksum: 2046328f94400c098fc6c1ae95324e0e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_05f42.dir/'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o /tmp/cckifGiW.s
+GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/libexec/gcc/aarch64-linux-gnu/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64/:/lib/aarch64-linux-gnu/:/usr/lib/aarch64-linux-gnu/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_05f42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05f42.dir/link.txt --verbose=1
+/usr/local/bin/c++  -v CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_05f42 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: /usr/src/gcc/configure --build=aarch64-linux-gnu --disable-multilib --enable-languages=c,c++,fortran,go
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 14.2.0 (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/libexec/gcc/aarch64-linux-gnu/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64/:/lib/aarch64-linux-gnu/:/usr/lib/aarch64-linux-gnu/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_05f42' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_05f42.'
+ /usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/collect2 -plugin /usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqf9IoL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_05f42 /lib/aarch64-linux-gnu/crt1.o /lib/aarch64-linux-gnu/crti.o /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtbegin.o -L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0 -L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64 -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../.. CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtend.o /lib/aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_05f42' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_05f42.'
+gmake[1]: Leaving directory '/workspaces/OOP_LR/Lab_6var5/build/CMakeFiles/CMakeScratch/TryCompile-WyDid0'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../include/c++/14.2.0]
+    add: [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../include/c++/14.2.0/aarch64-linux-gnu]
+    add: [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../include/c++/14.2.0/backward]
+    add: [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include]
+    add: [/usr/local/include]
+    add: [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include-fixed]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../include/c++/14.2.0] ==> [/usr/local/include/c++/14.2.0]
+  collapse include dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../include/c++/14.2.0/aarch64-linux-gnu] ==> [/usr/local/include/c++/14.2.0/aarch64-linux-gnu]
+  collapse include dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../include/c++/14.2.0/backward] ==> [/usr/local/include/c++/14.2.0/backward]
+  collapse include dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include] ==> [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include-fixed] ==> [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include-fixed]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/include/c++/14.2.0;/usr/local/include/c++/14.2.0/aarch64-linux-gnu;/usr/local/include/c++/14.2.0/backward;/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include;/usr/local/include;/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include-fixed;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /workspaces/OOP_LR/Lab_6var5/build/CMakeFiles/CMakeScratch/TryCompile-WyDid0]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_05f42/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_05f42.dir/build.make CMakeFiles/cmTC_05f42.dir/build]
+  ignore line: [gmake[1]: Entering directory '/workspaces/OOP_LR/Lab_6var5/build/CMakeFiles/CMakeScratch/TryCompile-WyDid0']
+  ignore line: [Building CXX object CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/c++   -v -o CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/c++]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: /usr/src/gcc/configure --build=aarch64-linux-gnu --disable-multilib --enable-languages=c c++ fortran go]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 14.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_05f42.dir/']
+  ignore line: [ /usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_05f42.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -o /tmp/cckifGiW.s]
+  ignore line: [GNU C++17 (GCC) version 14.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include-fixed/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../include/c++/14.2.0]
+  ignore line: [ /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../include/c++/14.2.0/aarch64-linux-gnu]
+  ignore line: [ /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../include/c++/14.2.0/backward]
+  ignore line: [ /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/include-fixed]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: 2046328f94400c098fc6c1ae95324e0e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_05f42.dir/']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o /tmp/cckifGiW.s]
+  ignore line: [GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/libexec/gcc/aarch64-linux-gnu/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64/:/lib/aarch64-linux-gnu/:/usr/lib/aarch64-linux-gnu/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_05f42]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05f42.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/c++  -v CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_05f42 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: /usr/src/gcc/configure --build=aarch64-linux-gnu --disable-multilib --enable-languages=c c++ fortran go]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 14.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/libexec/gcc/aarch64-linux-gnu/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64/:/lib/aarch64-linux-gnu/:/usr/lib/aarch64-linux-gnu/:/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_05f42' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_05f42.']
+  link line: [ /usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/collect2 -plugin /usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqf9IoL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_05f42 /lib/aarch64-linux-gnu/crt1.o /lib/aarch64-linux-gnu/crti.o /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtbegin.o -L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0 -L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64 -L/lib/aarch64-linux-gnu -L/usr/lib/aarch64-linux-gnu -L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../.. CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtend.o /lib/aarch64-linux-gnu/crtn.o]
+    arg [/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/libexec/gcc/aarch64-linux-gnu/14.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqf9IoL.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_05f42] ==> ignore
+    arg [/lib/aarch64-linux-gnu/crt1.o] ==> obj [/lib/aarch64-linux-gnu/crt1.o]
+    arg [/lib/aarch64-linux-gnu/crti.o] ==> obj [/lib/aarch64-linux-gnu/crti.o]
+    arg [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtbegin.o] ==> obj [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtbegin.o]
+    arg [-L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0] ==> dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0]
+    arg [-L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64] ==> dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../..] ==> dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../..]
+    arg [CMakeFiles/cmTC_05f42.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtend.o] ==> obj [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtend.o]
+    arg [/lib/aarch64-linux-gnu/crtn.o] ==> obj [/lib/aarch64-linux-gnu/crtn.o]
+  collapse library dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0] ==> [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0]
+  collapse library dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../../../lib64] ==> [/usr/local/lib64]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/../../..] ==> [/usr/local/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/lib/aarch64-linux-gnu/crt1.o;/lib/aarch64-linux-gnu/crti.o;/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtbegin.o;/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0/crtend.o;/lib/aarch64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/local/lib/gcc/aarch64-linux-gnu/14.2.0;/usr/local/lib64;/lib/aarch64-linux-gnu;/usr/lib/aarch64-linux-gnu;/usr/local/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /workspaces/OOP_LR/Lab_6var5/build/CMakeFiles/CMakeScratch/TryCompile-nRVEBL
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1dcd4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1dcd4.dir/build.make CMakeFiles/cmTC_1dcd4.dir/build
+gmake[1]: Entering directory '/workspaces/OOP_LR/Lab_6var5/build/CMakeFiles/CMakeScratch/TryCompile-nRVEBL'
+Building C object CMakeFiles/cmTC_1dcd4.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_1dcd4.dir/src.c.o -c /workspaces/OOP_LR/Lab_6var5/build/CMakeFiles/CMakeScratch/TryCompile-nRVEBL/src.c
+Linking C executable cmTC_1dcd4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dcd4.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1dcd4.dir/src.c.o -o cmTC_1dcd4 
+gmake[1]: Leaving directory '/workspaces/OOP_LR/Lab_6var5/build/CMakeFiles/CMakeScratch/TryCompile-nRVEBL'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+

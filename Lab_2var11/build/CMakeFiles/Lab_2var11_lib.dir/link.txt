@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLab_2var11_lib.a CMakeFiles/Lab_2var11_lib.dir/src/Thirteen_Class.cpp.o
+/usr/bin/ranlib libLab_2var11_lib.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLab_3var25_lib.a CMakeFiles/Lab_3var25_lib.dir/src/figure.cpp.o
+/usr/bin/ranlib libLab_3var25_lib.a

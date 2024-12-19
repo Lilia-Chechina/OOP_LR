@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLab_6var5_lib.a CMakeFiles/Lab_6var5_lib.dir/src/bear.cpp.o CMakeFiles/Lab_6var5_lib.dir/src/werewolf.cpp.o CMakeFiles/Lab_6var5_lib.dir/src/factory.cpp.o CMakeFiles/Lab_6var5_lib.dir/src/observer.cpp.o CMakeFiles/Lab_6var5_lib.dir/src/thug.cpp.o CMakeFiles/Lab_6var5_lib.dir/src/NPC.cpp.o
+/usr/bin/ranlib libLab_6var5_lib.a
